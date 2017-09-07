@@ -1,0 +1,194 @@
+html{  height: 100%;}
+body{font-family: 'Open Sans', sans-serif;  height: 100%; background-color:#f5344b;}
+a:focus{ outline:0 none;}
+.p0{ padding:0;}
+.p0l{ padding-left:0;}
+.p0r{ padding-right:0;}
+.leftp{ border-top:5px solid #bf1f32;  height: 100%;}
+.logo{}
+.logo a{ display: inline-block;
+    margin-top: 42px; margin-bottom:43px;}
+.logo a img{ display:block;}
+
+.navouter{ margin-bottom:20px}
+.mf-nav{ border-bottom: 1px solid #ff919e;
+    border-radius: 0;
+    border-top: 1px solid #ff919e;
+    margin-bottom: 0;}
+.mf-nav .nav{}
+.mf-nav .nav > li{}
+.mf-nav .nav > li > a{border-bottom: 1px solid #f5344b;
+    color: #fff;
+    font-size: 13px;
+    padding: 15px 27px;
+    text-shadow: 0 0 0;}
+.mf-nav .nav > li > a:hover, .mf-nav .nav > li > a:focus{ background-color:transparent; border-bottom-color:#fff;}
+.mf-nav .nav > .active > a{ background-color:transparent; border-bottom-color:#fff;}
+
+.hmtext{ text-align:center;}
+.hmtext h1{color: #fff;
+    font-size: 72px;
+    font-weight: 300;}
+.hmtext h2{color:#fff;
+    font-size:72px;
+    font-weight:700;}
+.hmtext p{ color: #fff;
+    font-size: 14px;
+    margin-top: 42px;
+    padding: 0 41px;}
+.hmtext .vmlink{background-color: #bf1f32;
+    color: #fff;
+    display: block;
+    height: 44px;
+    line-height: 45px;
+    margin-bottom:20px;
+    margin-top: 44px;
+    width: 170px;}
+.hmtext .vmlink:hover{ text-decoration:none;}
+
+
+.socs{margin-top: 20px;}
+.socs .cline{background-color: #ff919e;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    position: relative;
+    top: 26px;
+    width: 90%;}
+.socs ul{list-style: inside none none;
+    margin-bottom:23px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    z-index: 10;}
+.socs ul li{ display:inline-block; margin-left: 5px;
+    margin-right: 5px;}
+.socs ul li a{background: url("img/socs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 48px;
+    width: 48px;}
+.socs ul li .sfb{ background-position: 0 0;}
+.socs ul li .stw{background-position: -58px 0;}
+.socs ul li .sln{background-position: -116px 0;}
+.socs ul li .sgp{ background-position: -174px 0;}
+
+.ftbg{background-color: #bf1f32;}
+.copy{}
+.copy p{ color: #fff;
+    font-size: 11px;
+    margin-bottom: 18px;
+    margin-top: 18px;}
+.copy p a{ color:#fff;}
+.gtpdiv{}
+.gtpdiv .gtp{background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-top: 18px;}
+	
+.rightimg{ height: 100%;}
+.rightimg img{height: 100%;
+    position: fixed;
+    width: 50%;}
+
+.page-header{}
+.page-header h1{ color:#fff;}
+.page-header h1 small{ color:#fff;}
+.page-content{ color:#fff;}
+.page-content p{ margin-bottom:15px; text-align:justify;}
+
+.mdl{ margin-bottom: 21px;}
+.mdl a{display: block;}
+.mdl a img{}
+.mdl a span{color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;}
+.mdl a:hover{ text-decoration:none;}	
+
+.connm {
+  position: relative;
+}
+
+.connm input {
+  border: 1px solid #f5344b;
+  border-radius: 0;
+  color: #bfbfbf;
+  font-family: arial;
+  font-size: 11px;
+  height: 52px;
+}
+
+.connm .frmglyp {
+  right: 25px;
+}
+
+.conem {
+  position: relative;
+}
+
+.conem input {
+  border:1px solid #f5344b;
+  border-radius: 0;
+  color: #bfbfbf;
+  font-family: arial;
+  font-size: 11px;
+  height: 52px;
+}
+
+
+.comsub {
+  position: relative;
+}
+
+
+.conmm {
+  position: relative;
+}
+
+.conmm textarea {
+  border: 1px solid #f5344b;
+  border-radius: 0;
+  color: #bfbfbf;
+  font-family: arial;
+}
+
+.conmm .frmglyp {
+  font-size: 21px;
+  right: 12px;
+  top: 9px;
+}
+
+.subbtn {
+  background: #323232;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  height: 44px;
+  width: 144px;
+}
+
+.subbtn:hover{ background-color:#dd0303;}
+
+.form-control:focus {
+  border-color: #ff3737;
+  box-shadow: 0 1px 1px rgba(0,0,0,.075) inset,0 0 8px rgba(221,3,3,1);
+}
+
+@media only screen and (max-width: 767px){
+.navbar-brand{ color:#fff;}
+.navbar-brand:hover{ color:#fff;}
+.navbar-toggle{ border-color:#fff;}
+.navbar-toggle .icon-bar{ background-color:#fff;}	
+.mf-nav .nav > .active > a{ border-bottom-color:transparent;}
+.hmtext h1{ font-size:40px;}
+.hmtext h2{font-size:40px;}
+.hmtext p{ padding:0; text-align:justify;}
+.copy p{ text-align:center;}
+.connm, .conem{ padding:0;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1199px){
+	
+}
