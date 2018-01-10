@@ -5,7 +5,7 @@
  */
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #ffdff1;
+	color: #fff;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -35,6 +35,9 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background: url(https://3.bp.blogspot.com/-6qcSZ_DhL7Y/WlWGK6tzG_I/AAAAAAAAG1U/a53L4sDq31sEZ_cW7wbAQ7ilXo4myTXpQCLcBGAs/s1600/ashbg.JPG)repeat;	
+background-color: rgba(0, 0, 0, 0.4);
+border:inset 3px #696169;
+
 }
 
 /* Inline code */
@@ -48,7 +51,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #FF428C;
+	color: #aaa;
 }
 
 .token.punctuation {
@@ -64,7 +67,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #ADFF31;
+	color: #FF428C;
 }
 
 .token.boolean,
