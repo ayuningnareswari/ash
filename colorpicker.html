@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="cdn/hcc_017.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Html Color Codes</title>
+    <meta name="description" content="Get HTML color codes for your website. Color chart, color picker and color palettes." />
+    <META NAME="keywords" content="html, color, codes, chart, picker, hex">
+    <link rel="shortcut icon" href="https://78.media.tumblr.com/tumblr_lthc1cCasF1qhwcy0.gif" type="image/x-icon" />
+</head>
+<body>
+<div id="colorcodes">
+    <div id="main">
+        <h1><a href="http://ashprincesskawaii.blogspot.co.id/">Ash Princess Kawaii</a></h1>
+        <h2>HTML Color Picker</h2>
+
+        <div id="insertcolor">
+            <button onclick="CPklik()" style="float:left">Save color</button>
+            Insert your color code:
+            <input type="text" maxlength="7" value="FFFFFF" id="startcolor" name="startcolor">
+            <button id="newcolor">GO</button>
+        </div>
+        <div ID="CP" class="wrapper"></div>
+        <div id="container"></div>
+        <script type="text/javascript" src="cdn/cpcc_003.js"></script>
+        <script type="text/javascript" language="javascript">
+            (function() {
+                var Event = YAHOO.util.Event, picker, hexcolor;
+
+                Event.onDOMReady(function() {
+                    picker = new YAHOO.widget.ColorPicker("container", {
+                        showhsvcontrols: true,
+                        showhexcontrols: true,
+                        showwebsafe: false });
+                    picker.skipAnim=true;
+                    var onRgbChange = function(o) {				setTimeout ("document.getElementById('yui-picker-hex').select()", 50);			}
+                    picker.on("rgbChange", onRgbChange);
+                    Event.on("newcolor", "click", function(e) {
+                        hexcolor = cc(document.getElementById('startcolor').value);
+                        picker.setValue([HexToR(hexcolor), HexToG(hexcolor), HexToB(hexcolor)], false);
+                    });
+                });
+            })();
+        </script>
+
+
+    </div>
+    <div id="sidebar">
+        </div>
+
+
+</div>
+</div>
+
+</body>
+</html>
