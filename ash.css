@@ -675,11 +675,11 @@ a.mini-ct.max-ct {
     padding: 5px 0;
     margin-right: 1px;
     margin-top: -4px;
-    background: #0F73A2;
+    background: #007770;
     -moz-border-radius-topright: 4px;
     -webkit-border-top-right-radius: 4px;
     border-top-right-radius: 4px;
-    border-left: solid 1px #035277;
+    border-left: solid 1px #008c82;
     box-shadow: -1px 0 0 0 rgba(255, 255, 255, 0.34)
 }
 
@@ -701,8 +701,8 @@ a.mini-ct.max-ct {
 }
 
 .R-icon.w-right {
-    border-left: solid 1px #737475;
-    background-color: #949da1
+    border-left: solid 1px #008c82;
+    background-color: #008c82
 }
 
 .hcg-button:hover, .btn:hover {
