@@ -617,13 +617,13 @@ a.mini-ct.max-ct {
 }
 
 #ajax-content-menu li a.main_menu-active {
-    background: -webkit-linear-gradient(top, #067DB4, #09638F);
-    background: -moz-linear-gradient(top, #067DB4, #09638F);
-    background: -ms-linear-gradient(top, #067DB4, #09638F);
-    background: -o-linear-gradient(top, #067DB4, #09638F);
-    background: linear-gradient(to bottom, #067DB4, #09638F);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#067DB4', endColorstr='#09638F');
-    background-color: #0F73A2;
+    background: -webkit-linear-gradient(top, #008c82, #007770);
+    background: -moz-linear-gradient(top, #008c82, #007770);
+    background: -ms-linear-gradient(top, #008c82, #007770);
+    background: -o-linear-gradient(top, #008c82, #007770);
+    background: linear-gradient(to bottom, #008c82, #007770);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008c82', endColorstr='#007770');
+    background-color: #006056;
     color: #FFF;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -631,13 +631,13 @@ a.mini-ct.max-ct {
 }
 
 .blue_bg, #ajax-content-menu li a:hover {
-    background: -webkit-linear-gradient(top, #067DB4, #09638F);
-    background: -moz-linear-gradient(top, #067DB4, #09638F);
-    background: -ms-linear-gradient(top, #067DB4, #09638F);
-    background: -o-linear-gradient(top, #067DB4, #09638F);
-    background: linear-gradient(to bottom, #067DB4, #09638F);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#067DB4', endColorstr='#09638F');
-    background-color: #0F73A2
+    background: -webkit-linear-gradient(top, #008c82, #007770);
+    background: -moz-linear-gradient(top, #008c82, #007770);
+    background: -ms-linear-gradient(top, #008c82, #007770);
+    background: -o-linear-gradient(top, #008c82, #007770);
+    background: linear-gradient(to bottom, #008c82, #007770);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008c82', endColorstr='#007770');
+    background-color: #006056
 }
 
 .rds_5 {
@@ -661,7 +661,7 @@ a.mini-ct.max-ct {
     box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.34);
     -moz-box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.34);
     -webkit-box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.34);
-    background-color: #0F73A2;
+    background-color: #006056;
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
     border-top-left-radius: 4px
