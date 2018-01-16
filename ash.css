@@ -1,54 +1,131 @@
-.a-icon{ background: url(/files/theme/image/a-icon.png);
-background-repeat: no-repeat;
-}
-.tipsy-arrow { background: url(data:image/gif;base64,R0lGODlhCQAJAIABAAAAAAAAACH5BAEAAAEALAAAAAAJAAkAAAIRjAOnwIrcDJxvwkplPtchVQAAOw==) no-repeat top left; 
-}
-.m-loading{ background: url(data:image/gif;base64,R0lGODlhEAALALMMAOXp8a2503CHtOrt9L3G2+Dl7vL0+J6sy4yew1Jvp/T2+e/y9v///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCwAMACwAAAAAEAALAAAEK5DJSau91KxlpObepinKIi2kyaAlq7pnCq9p3NZ0aW/47H4dBjAEwhiPlAgAIfkECQsADAAsAAAAAAQACwAABA9QpCQRmhbflPnu4HdJVAQAIfkECQsADAAsAAAAABAACwAABDKQySlSEnOGc4JMCJJk0kEQxxeOpImqIsm4KQPG7VnfbEbDvcnPtpINebJNByiTVS6yCAAh+QQJCwAMACwAAAAAEAALAAAEPpDJSaVISVQWzglSgiAJUBSAdBDEEY5JMQyFyrqMSMq03b67WY2x+uVgvGERp4sJfUyYCQUFJjadj3WzuWQiACH5BAkLAAwALAAAAAAQAAsAAAQ9kMlJq73hnGDWMhJQFIB0EMSxKMoiFcNQmKjKugws0+navrEZ49S7AXfDmg+nExIPnU9oVEqmLpXMBouNAAAh+QQFCwAMACwAAAAAEAALAAAEM5DJSau91KxlpOYSUBTAoiiLZKJSMQzFmjJy+8bnXDMuvO89HIuWs8E+HQYyNAJgntBKBAAh+QQFFAAMACwMAAIABAAHAAAEDNCsJZWaFt+V+ZVUBAA7);
-background-repeat: no-repeat;
-}
-.blog-header h2 a {
-    display: none;
-}
-
-
-.codMerr {
-    text-align: center;
-    width: 200px;
-    margin: 75px auto;
-    background-color: #FFFFD0;
-    padding: 5px 10px;
-    color: #7B7B7B;
-    text-shadow: 1px 1px 0px #FFFFBF;
-    border: solid 1px #BFBF00;
-    font-family: coda;
-}
-div#wsite-content > div > div {
-    overflow: inherit;
-}
-.btm-cmr-cods-div{background-color:#C7C7C7;padding:5px 10px;margin-top:50px;text-align:center;border:solid 1px #9C9B9B;border-bottom:0}
-.btm-cmr-cods-txt{font-size:13px;font-weight:bold;float:left;margin:-5px -10px;box-shadow:1px 0 0 0 #E8E5E5;border-right:solid 1px #A7A6A6;padding:10px 20px}
-.btm-cmr-cods-cnt button{vertical-align:middle;margin-right:25px}
-.btm-cmr-error-div{margin:10px auto;text-align:center}
-.btm-cmr-error{text-align:center;background-color:#FFFAC0;padding:10px 20px;border:solid 1px #D6CD62;display:inline-block;font-weight:bold;color:#797757;margin:100px auto}
-textarea#btm_cmr_code{visibility:hidden}
-div#hcjf-cmr-btm-div {border: solid 1px #9C9B9B;border-top: 0;}
-#main{background:#FFF url(data:image/png;base64,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) repeat-y}
-.comment-cnt-up {
-    margin: 10px 0px;
-    background: white;
-    padding: 5px 0px;
-}
-.fb-div {
-    display: inline-block;
-    vertical-align: middle;
-}
-div#total-comments {
-    font-weight: bold;
-    color: #5A5A5A;
-    cursor: pointer;
-    float: right;
-    margin: 3px 0px;
-}
-.ffb-like.fb_iframe_widget {
-    margin-top: 35px;
-}
+div#hcg_box_content1{text-align:center;position:relative}
+table#tbl_clr{font-size:12px;border-collapse:collapse;border:1px solid #CCC;width:100%;color:#444}
+table#tbl_clr td{padding:4px 0 6px 10px;border:1px solid #CCC;text-align:left}
+table#tbl_clr th{width:25%;border:solid 1px #CCC;padding:10px 2px;background-color:#FFFFC7}
+td.rgb-td,td.hex-td{background-color:#FBFBEA}
+.clr_bgc span{display:block;height:22px;margin:-4px -4px;cursor:pointer}
+.clr_div div{display:inline-block;vertical-align:middle;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.clr_nbr{width:5%;text-align:center;border:solid 1px #C1C1C1;border-top:0;border-right:0;padding:5px 5px}
+.clr_nme{width:23.75%;text-align:left;border:solid 1px #C1C1C1;border-top:0;border-right:0;padding:5px 15px}
+.clr_hex{width:23.75%;text-align:left;border:solid 1px #C1C1C1;border-top:0;border-right:0;padding:5px 15px}
+.clr_bgc{width:23.75%;text-align:left;border:solid 1px #C1C1C1;border-top:0;border-right:0;padding:5px 5px}
+.clr_rbg{width:23.75%;text-align:left;border:solid 1px #C1C1C1;border-top:0;padding:5px 15px}
+div#div-color{overflow:auto;height:400px}
+.clr_div-t{text-align:left;background-color:#E4E4E4;border-bottom:solid 1px #C1C1C1}
+.clr_div-t div{display:inline-block;vertical-align:middle;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+input#clr_srch{width:90%;vertical-align:middle}
+.clr_nbrt{width:4.8%;text-align:center;padding:10px 5px}
+.clr_nmet{width:23.5%;text-align:center;border:solid 1px #C1C1C1;border-bottom:0;padding:5px 9px}
+.clr_hext{width:22.90%;text-align:left;border-right:solid 1px #C1C1C1;padding:10px 15px}
+.clr_bgct{width:23.50%;text-align:left;border-right:solid 1px #C1C1C1;padding:10px 5px}
+.clr_rbgt{width:25%;text-align:left;border-right:solid 1px #C1C1C1;padding:10px 10px}
+.clr_div{background-color:#fff}
+.dt-div div{border:solid 1px #aaa;width:25px;height:25px;display:inline-block;margin:1px;cursor:pointer;margin-bottom:-2px;border-radius:5px}
+div#hcg_box_content2{text-align:center;background-color:#fff}
+div#hcg_box_content3{text-align:center;background-color:#fff}
+div#hcg_box_content2 .m-div{margin:15px 0}
+.dt-top-div{text-align:left;background-color:#E4E4E4;border-bottom:solid 1px #C1C1C1;padding:5px 10px}
+.dc-div{display:inline-block;vertical-align:middle;margin:5px;margin-bottom:1px}
+.dc-ws{width:75px;height:25px;display:inline-block;cursor:pointer;box-shadow:2px 2px 4px 0 #B7B7B7}
+div#dc{height:400px;overflow:auto;text-align:center}
+div#dc-rgb,div#db-rgb{display:inline-block;margin-left:10px;font-size:15px;vertical-align:middle}
+div#hcg_box_content5{padding:20px;text-align:center}
+.hextrgb,.rgbthex{display:inline-block;vertical-align:middle;margin-bottom:25px;background-color:#E2E2E2}
+.hextrgb div,.rgbthex div{display:inline-block;vertical-align:middle}
+.clr-cv-cnpt input{width:35px}
+.clr-cv-anpt input{width:125px}
+.clr-cv-btn{margin:0 20px}
+.clr-cnv-dv{padding:18px 10px}
+div#h-color-h{width:50px;height:60px;border-right:solid 1px #CCC;float:left;margin-right:10px;box-shadow:inset 0 0 0 3px #fff;margin:1px}
+div#h-color-r{width:50px;height:60px;border-left:solid 1px #CCC;float:right;box-shadow:inset 0 0 0 3px #fff;margin:1px}
+div#r-color-r{width:50px;height:60px;border-right:solid 1px #CCC;float:left;margin-right:10px;box-shadow:inset 0 0 0 3px #fff;margin:1px}
+div#r-color-h{width:50px;height:60px;border-left:solid 1px #CCC;float:right;box-shadow:inset 0 0 0 3px #fff;margin:1px}
+.jPicker .Icon{display:inline-block;height:24px;/* change this value if using a different sized color picker icon */
+  position:relative;/* make this element an absolute positioning container */
+  text-align:left;/* make the zero width children position to the left of container */
+  width:25px;/* change this value if using a different sized color picker icon */}
+.jPicker .Icon span.Color,.jPicker .Icon span.Alpha{background-position:2px 2px;display:block;height:100%;left:0;position:absolute;top:0;width:100%}
+.jPicker .Icon span.Image{background-repeat:no-repeat;cursor:pointer;display:block;height:100%;left:0;position:absolute;top:0;width:100%}
+.jPicker.Container{color:#000;z-index:10;padding:20px}
+table.jPicker{background-color:#efefef;font-family:Arial,Helvetica,Sans-Serif;font-size:12px!important;margin:0;padding:5px;width:100%;z-index:20;border:solid 1px #aaa}
+.jPicker .Move{background-color:#dddddd;border-color:#fff #666 #666 #fff;border-style:solid;border-width:1px;cursor:move;height:12px;padding:0}
+.jPicker .Title{font-size:11px!important;font-weight:bold;margin:-2px 0 0 -20px;padding:10px 0 0 0;text-align:center;width:100%}
+.jPicker div.Map{border-bottom:2px solid #fff;border-left:2px solid #9a9a9a;border-right:2px solid #fff;border-top:2px solid #9a9a9a;cursor:crosshair;height:260px;/* IE 6 incorrectly draws border inside the width and height instead of outside - We will fix this to 256px later */
+  margin:0 10px 10px 50px;overflow:hidden;/* hide the overdraw of the Color Map icon when at edge of viewing box */
+  padding:0;position:relative;/* make this element an absolute positioning container */
+  width:260px;/* IE 6 incorrectly draws border inside the width and height instead of outside - We will fix this to 256px later */}
+.jPicker div[class="Map"]{height:256px;/* correct to 256px for browsers that support the "[class="xxx"]" selector (IE7+,Firefox,Safari,Chrome,Opera,etc.) */
+  width:256px;/* correct to 256px for browsers that support the "[class="xxx"]" selector (IE7+,Firefox,Safari,Chrome,Opera,etc.) */}
+.jPicker div.Bar{border-bottom:2px solid #fff;border-left:2px solid #9a9a9a;border-right:2px solid #fff;border-top:2px solid #9a9a9a;cursor:n-resize;height:260px;/* IE 6 incorrectly draws border inside the width and height instead of outside - We will fix this to 256px later */
+  margin:12px 10px 0 5px;overflow:hidden;padding:0;position:relative;width:24px;/* IE 6 incorrectly draws border inside the width and height instead of outside - We will fix this to 20px later */}
+.jPicker div[class="Bar"]{height:256px;/* correct to 256px for browsers that support the "[class="xxx"]" selector (IE7+,Firefox,Safari,Chrome,Opera,etc.) */
+  width:20px;/* correct to 20px for browsers that support the "[class="xxx"]" selector (IE7+,Firefox,Safari,Chrome,Opera,etc.) */}
+.jPicker .Map .Map1,.jPicker .Map .Map2,.jPicker .Map .Map3,.jPicker .Bar .Map1,.jPicker .Bar .Map2,.jPicker .Bar .Map3,.jPicker .Bar .Map4,.jPicker .Bar .Map5,.jPicker .Bar .Map6{background-color:transparent;background-image:none;display:block;left:0;position:absolute;top:0}
+.jPicker .Map .Map1,.jPicker .Map .Map2,.jPicker .Map .Map3{height:2596px;width:256px;/* must specify pixel width. IE7/8 Quirks mode ignores opacity for an absolutely positioned item in a relative container with "overflow:visible". The marker in the colorBar
+                   would not be drawn if its overflow is set to hidden. */}
+.jPicker .Bar .Map1,.jPicker .Bar .Map2,.jPicker .Bar .Map3,.jPicker .Bar .Map4{height:3896px;width:20px;/* must specify pixel width. IE7/8 Quirks mode ignores opacity for an absolutely positioned item in a relative container with "overflow:visible". The marker in the colorBar
+                  would not be drawn if its overflow is set to hidden. */}
+.jPicker .Bar .Map5,.jPicker .Bar .Map6{height:256px;width:20px;/* must specify pixel width. IE7/8 Quirks mode ignores opacity for an absolutely positioned item in a relative container with "overflow:visible". The marker in the colorBar
+                  would not be drawn if its overflow is set to hidden. */}
+.jPicker .Map .Map1,.jPicker .Map .Map2,.jPicker .Bar .Map6{background-repeat:no-repeat}
+.jPicker .Map .Map3,.jPicker .Bar .Map5{background-repeat:repeat}
+.jPicker .Bar .Map1,.jPicker .Bar .Map2,.jPicker .Bar .Map3,.jPicker .Bar .Map4{background-repeat:repeat-x}
+.jPicker .Map .Arrow{display:block;position:absolute}
+.jPicker .Bar .Arrow{display:block;left:0;/* (arrow width / 2) - (element width / 2) - position arrows' center in elements' center */
+  position:absolute}
+.jPicker .Preview{font-size:9px;padding:5px 0 0 0;text-align:center}
+.jPicker .Preview div{border:2px inset #eee;height:62px;margin:0 auto;padding:0;width:62px}
+.jPicker .Preview div span{border:1px solid #000;display:block;height:30px;margin:0 auto;padding:0;width:60px}
+.jPicker .Preview .Active{border-bottom-width:0}
+.jPicker .Preview .Current{border-top-width:0;cursor:pointer}
+.jPicker input{font-size:13px}
+.jPicker .Button{text-align:center;padding:0 4px;width:115px}
+.jPicker .Button input{padding:2px 0;width:100px}
+.jPicker .Button .Ok{margin:12px 0 5px 0}
+.jPicker td{margin:0;padding:0}
+.jPicker td.Radio{margin:0;padding:0;width:31px}
+.jPicker td.Radio input{margin:0 5px 0 0;padding:0}
+.jPicker td.Text{font-size:12px!important;height:22px;margin:0;padding:0;text-align:left;width:70px}
+.jPicker tr.Hex td.Text{width:100px}
+.jPicker td.Text input{background-color:#fff;border:1px inset #aaa;height:19px;margin:0 0 0 5px;text-align:left;width:30px}
+.jPicker td[class="Text"] input{height:15px}
+.jPicker tr.Hex td.Text input.Hex{width:50px}
+.jPicker tr.Hex td.Text input.AHex{width:20px}
+.jPicker .Grid{text-align:center;width:114px}
+.jPicker .Grid span.QuickColor{border:1px inset #aaa;cursor:pointer;display:inline-block;height:15px;line-height:15px;margin:0;padding:0;width:19px}
+.jPicker .Grid span[class="QuickColor"]{width:17px}
+.cf-diva{background-color:#F1F1F1;height:30px;border-bottom:1px solid #D8D8D8;border-right:solid 1px #D8D8D8;padding:5px 20px}
+.cf-diva div{display:inline-block;vertical-align:middle}
+.cf-diva-txt{text-align:left;font-size:14px;font-family:Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;width:120px;text-shadow:1px 1px 0 #FFF;border-right:solid 1px #E5E5E5;box-shadow:1px 0 0 0 #FFF;padding:7px 0;height:16px}
+.cf-divb-lft,.cf-divb-rht{display:inline-block;vertical-align:middle;width:49%;border:solid 1px #aaa;height:326px;padding:15px 15px}
+.cf-divb-lft div{display:inline-block;vertical-align:middle}
+.cf-divb-lft-txt{text-align:left;font-size:14px;font-family:Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;width:100px;text-shadow:1px 1px 0 #FFF;border-right:solid 1px #E5E5E5}
+.cf-divb-lft-dv{margin:3px 0;background-color:#F1F1F1;padding:5px 10px;border-bottom:1px solid #D8D8D8;border-right:solid 1px #D8D8D8}
+.cf-divb{text-align:center}
+div#cf_clr_prv{background-color:#F1AF58;width:100%;height:100%;display:inline-block}
+div#err-clr{background-color:#EAEAEA;padding:20px 20px;text-align:left;font-size:14px;font-family:Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;width:200px;text-shadow:1px 1px 0 #FFF;display:none}
+div#hcg_box_content6 .m-div{padding:20px}
+.cf-divb-lft-dv input{width:160px}
+div#cf_clr_prv{width:100%;height:100%;display:inline-block;background-image:url(/files/theme/image/transparent.png)}
+div#cf_clr_prv span{width:100%;height:100%;display:inline-block}
+.divg-clr{width:20px;height:15px;display:inline-block;margin:1px;border-radius:5px;cursor:pointer}
+.gtab-menu a{display:inline-block;border:solid 1px #aaa;padding:5px 5px;width:60px;text-align:center;color:#000;font-weight:bold}
+table.table-ga{width:100%;text-align:center;border-collapse:collapse}
+table.table-ga tr{background-color:#EBEBEB;color:#000}
+table.table-ga td{border:solid 1px #C9C9C9;padding:10px}
+table.table-ga th{border:solid 1px #BFBFBF;padding:10px;color:#000;background-color:#D4D4D4;text-align:center;font-size:12px}
+.g-tabs{display:none}
+.gtab-menu{background-color:#E0E0E0;padding:5px 5px;text-align:center}
+.gtab-menu a.tab-actv{background-image:none;outline:0;border:solid 1px #9E9E9E;background-color:#D1D1D1;-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);color:#5F5F5F}
+div#g_div_clr{background-color:#E0E0E0;padding:10px;border-bottom:solid 1px #C1C1C1}
+div#hcg_box_content7 .m-div{padding:20px}
+.g-divtb{background-color:#E0E0E0;padding:10px;margin-bottom:15px;text-align:center}
+.g-dvb-a,.g-dvb-b,.g-dvb-c{display:inline-block;vertical-align:middle;width:33%;border:solid 1px #aaa;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;height:74px}
+div#g_color_prv{width:100%;height:100%}
+.g-dvb-b{text-align:left;text-indent:5px;padding:4px 0}
+.g-dvb-a{padding:23px 0}
+.g-dvb-c{height:74px}
+.g-dvb-b b{font-weight:bold;color:#000;width:50px;background-color:#E0E0E0;display:inline-block;margin-bottom:2px;vertical-align:middle;text-align:right}
+.g-dvb-b span{font-weight:normal;padding-left:5px;display:inline-block}
+.divg-clr.d-actv{-webkit-transform:rotateX(50deg);transform:rotateX(50deg);-webkit-transform-origin-x:50%;-webkit-transform-origin-y:50%;transform-origin-x:50%;transform-origin-y:50%}
+div#db-rgb-clr,div#dc-rgb-clr{width:50px;height:23px;display:inline-block;vertical-align:middle;margin-left:10px;border:solid 1px #aaa}
