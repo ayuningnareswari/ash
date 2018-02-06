@@ -8,7 +8,8 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #acb3bc;
 	background: none;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: monospace, Monaco, 'Andale Mono', 'Ubuntu Mono';
+	margin-top:36px;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -54,7 +55,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-background:#444 url('https://4.bp.blogspot.com/-kCQPq7DZ-Go/WnnERJv6BVI/AAAAAAAAKhg/klv4YXR9kxYEMKkVRlxiCX8_Ypb_QtjqACLcBGAs/s1600/1204139gpo3yynibu.gif') no-repeat right bottom;
+background:#444 url('https://1.bp.blogspot.com/-yaU7nm5puh0/WnnGkQ8sZ9I/AAAAAAAAKh0/jCaDgjLrH-E0DoqOiHMehNLDFbdv3xDIQCLcBGAs/s1600/549552swi7kmag05.gif') no-repeat left top;
 border-left:5px solid #4E5F52;
 }
 
