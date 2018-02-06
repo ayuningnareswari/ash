@@ -1,7 +1,7 @@
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
+ * @author Erna Ayuning Nareswari
  */
 
 code[class*="language-"],
@@ -54,7 +54,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #353842;
+background:#444 url('http://1.bp.blogspot.com/-YfTYnkZpk7Y/Uv9sQXtVAcI/AAAAAAAAAOE/8ILDtY0uhig/s1600/bqbg.png') no-repeat right;
 }
 
 /* Inline code */
