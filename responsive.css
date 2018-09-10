@@ -1,0 +1,179 @@
+
+/*For bigger screen then normal 960px desktop*/
+@media (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+.shortly-content h1 {
+  font-size: 3.5em;
+}
+.shortly-social-lists {
+  width: 65%;
+}
+
+}
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.shortly-header-section {
+  min-height: 600px;
+  max-height: 700px;
+}
+.shortly-header-item {
+  width: 100%;
+}
+.shortly-content h1 {
+  font-size: 3em;
+}
+.shortly-content h2 {
+  font-size: 1.6em;
+}
+.shortly-about-area {
+  background-image: inherit;
+  padding: 100px 0 40px;
+}
+.shortly-about-icon i {
+  height: 150px;
+  line-height: 150px;
+  width: 150px;
+}
+.shortly-about-single-item {
+  margin-bottom: 60px;
+}
+.shortly-subscribe-item {
+  width: 70%;
+}
+.shortly-contact-form {
+  width: 70%;
+}
+.shortly-social-lists {
+  width: 90%;
+}
+canvas {
+  height: 100%;
+}
+
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+
+.shortly-header-section {
+  min-height: 500px;
+  max-height: 550px;
+}
+.shortly-logo {
+    margin-bottom: 25px;
+}
+.shortly-logo a {
+    max-width: 150px;
+}
+.shortly-content h1 {
+    margin: 25px 0;
+}
+.shortly-header-v6 canvas {
+  min-height: 700px;
+}
+.shortly-header-item {
+  width: 100%;
+}
+.shortly-content h1 {
+  font-size: 2.1em;
+}
+.shortly-content h2 {
+    font-size: 1.5em;
+}
+.countdown > div {
+  padding: 10px;
+}
+.number {
+  font-size: 2em;
+}
+.shortly-about-area {
+  background-image: inherit;
+  padding: 100px 0 40px;
+}
+.shortly-about-icon i {
+  height: 150px;
+  line-height: 150px;
+  width: 150px;
+}
+.shortly-about-single-item {
+  margin-bottom: 60px;
+}
+.shortly-subscribe-item {
+  width: 75%;
+}
+.shortly-single-heading h2 {
+  font-size: 2em;
+}
+.shortly-contact-form {
+  width: 100%;
+}
+.shortly-social-lists {
+  width: 100%;
+}
+.shortly-social-lists ul {
+  padding: 0;
+}
+.shortly-social-lists li {
+  margin: 0;
+}
+
+}
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+.shortly-header-section {
+  min-height: 500px;
+  max-height: 550px
+}
+.shortly-header-v6 canvas {
+  min-height:550px;
+}
+.shortly-logo a {
+  width: 150px;
+}
+.shortly-content h1 {
+  font-size: 2em;
+  margin: 30px 0;
+}
+.shortly-content h2 {
+  font-size: 1.2em;
+}
+.countdown > div {
+  width: calc(50% - 20px);
+}
+.shortly-subscribe-now {
+  padding: 50px 0;
+}
+.shortly-subscribe-item {
+  width: 100%;
+}
+.shortly-single-heading {
+  margin: 0 0 30px;
+}
+.shortly-single-heading h2 {
+  font-size: 1.5em;
+}
+.shortly-subscribe-form input[type="email"] {
+  height: 45px;
+}
+.shortly-subscribe-item::before {
+  display: none;
+}
+.shortly-contact-us {
+  padding: 50px 0;
+}
+.shortly-social-lists li a {
+  font-size: 0.838em;
+  padding: 4px;
+}
+.shortly-social-lists li a i {
+  font-size: 2.5em;
+}
+
+}
